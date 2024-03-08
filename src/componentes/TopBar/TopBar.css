@@ -1,0 +1,19 @@
+.contenedor-topBar{
+    width: 100vw;
+    min-height: 30px;
+    background-color:bisque;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.cont-caja1-topBar{
+    background-color: gray;
+    width: 500px;
+
+}
+
+.cont-caja2-topBar{
+    background-color: gray;
+    width: 500px;
+}
