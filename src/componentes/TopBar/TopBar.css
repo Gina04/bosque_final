@@ -1,19 +1,29 @@
 .contenedor-topBar{
     width: 100vw;
     min-height: 30px;
-    background-color:bisque;
+    background-color:#222222;
     display: flex;
     justify-content:space-between;
 
 }
 
 .cont-caja1-topBar{
-    background-color: gray;
     width: 500px;
+    color:white;
 
 }
 
 .cont-caja2-topBar{
-    background-color: gray;
-    width: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
 }
+
+.cont-caja2-topBar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color:white;
+  
+}
+
