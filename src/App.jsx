@@ -14,7 +14,7 @@ import DetalleMueble from './componentes/Muebles/DetalleMueble';
 function App() {
   return (
     <>
-     <Router>
+     <Router basename={process.env.PUBLIC_URL}>
         <TopBar />
         <HeaderMain />
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/furniture/living-room/sofa-and-sectional-collections" element={<ListaMuebles/>} />
           <Route path="/FurnitureDetail/:id" element={<DetalleMueble/>} />
           <Route path="/" element={<Main />} />
-          
+
         </Routes>
 
         <Footer />
